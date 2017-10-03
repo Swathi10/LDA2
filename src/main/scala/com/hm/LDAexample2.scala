@@ -10,7 +10,7 @@ import org.apache.spark.mllib.clustering.LDA
 import org.apache.spark.mllib.linalg.{Vector, Vectors}
 import org.apache.spark.rdd.RDD
 
-object TheStruggle extends App {
+object LDAexample2 extends App {
 
   val conf = new SparkConf().setAppName("LatentDirichletAllocationExample").setMaster("local")
   val sc = new SparkContext(conf)
